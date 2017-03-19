@@ -2,6 +2,13 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
+Rails.application.config.assets.precompile += %w( main.css )
+Rails.application.config.assets.precompile += %w( main.js )
+Rails.application.config.assets.precompile += %w( util.js )
+Rails.application.config.assets.precompile += %w( skel.min.js )
+Rails.application.config.assets.precompile += %w( jquery.scrollgress.min.js )
+Rails.application.config.assets.precompile += %w( jquery.dropotron.min.js )
+Rails.application.config.assets.precompile += %w( jquery.min.js )
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path

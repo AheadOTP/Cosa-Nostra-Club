@@ -1,0 +1,108 @@
+
+
+
+	
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="reveal">
+					<h1><a href="index.html">Cosa Nostra Famiglia</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+
+								<a href="#" class="icon fa-angle-down">Menu</a>
+								<ul>
+
+									<li><a href="#">Option1</a></li>
+									<li><a href="#">Option2</a></li>
+									<li><a href="#">Option3</a></li>
+									<li><a href="#">Option4</a><li>
+								</ul>
+							</li>
+	
+								<li> Hello, <%= current_user.email %> | <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+								</li>
+								
+						</ul>
+					</nav>
+				</header>
+
+		<br>
+		<br>
+		<br>
+
+		<table class="table">
+  		<thead>
+  			<th >Place in rating</th>
+			<th >Name</th>
+			<th >Rating</th>
+						
+  		</thead>
+  		<tbody>
+
+  			<center><h2>Рейтинг игроков</h2></center>
+			<!-- On rows -->
+			<tr class="active">
+				<th scope = "row">1</th>
+				<td>Шерифорожденный</td>
+				<td>Over 99999</td>
+			</tr>
+
+			<tr class="success">
+				<th scope = "row">2</th>
+				<td>Царь</td>
+				<td>99998</td>
+			</tr>
+
+			<tr class="warning">
+				<th scope = "row">3</th>
+				<td>BKing</td>
+				<td>1488</td>
+			</tr>
+
+			<tr class="danger">
+				<th scope = "row">4</th>
+				<td>Гидроксид</td>
+				<td>1337</td>
+			</tr>
+			<tr class="info">
+				<th scope = "row">5</th>
+				<td>Рингтон</td>
+				<td>322</td>
+			</tr>
+
+			<!-- On cells (`td` or `th`) -->
+			<!-- <tr>
+			  <td class="active">...</td>
+			  <td class="success">...</td>
+			  <td class="warning">...</td>
+			  <td class="danger">...</td>
+			  <td class="info">...</td>
+			</tr> -->
+		</tbody>
+		</table>
+				
+
+			
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Cosa Nostra Famiglia. All rights reserved.</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		
+			
+	
